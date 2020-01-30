@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Form Component */
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width:100%;
+}
+
+button{
+  background:rgba(71, 184, 212, 0.979);
+  color:white;
+  font-size: 12px;
+  border: none;
+  padding:10px 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+label{
+  padding: 15px 0;
+}
+
+h2{
+  text-decoration: underline;
+}
